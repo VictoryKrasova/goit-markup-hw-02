@@ -1,0 +1,192 @@
+:root{
+  --prime-color-font: #2E2F42;
+  --color-hover: #404BBF;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body{
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--prime-color-font);
+}
+
+
+/* ================Header ================*/
+.menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--prime-color-font);
+}
+
+.addres-link{
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--prime-color-font);
+}
+
+.logo{
+    width: 71px;
+height: 24px;
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.span-web{
+    color: #4D5AE5;
+}
+
+.span-studio{
+    color: var(--prime-color-font);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+  color: var(--color-hover);
+}
+
+.addres-link:hover,
+.addres-link:focus{
+  color: var(--color-hover);
+}
+
+.modal-btn{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+width: 169px;
+height: 56px;
+left: 20px;
+top: 20px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus{
+  background: #404BBF;
+}
+/* ================HERO ================ */
+
+.main-header{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.modal-btn{
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+
+/* ================ABOUT US============= */
+.third-header{
+ font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--prime-color-font);
+}
+
+.about-discr{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* ================What we doing========= */
+.second-header{
+ width: 323px;
+height: 40px;
+left: 559px;
+top: 1016px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--prime-color-font);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ================Our Team======= */
+
+.team-header{
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--prime-color-font);
+}
+
+.name-header{
+ font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--prime-color-font);
+}
+
+.dscr-prof{
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* ===============Footr============ */
+.footer-dcr{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+/* ================Sections ================ */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
